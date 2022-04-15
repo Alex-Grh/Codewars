@@ -13,3 +13,9 @@ function repeatStr (n, s) {
  }
  repeatStr(6, "I");
  repeatStr(5, "Hello");
+
+ /*
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+ */
