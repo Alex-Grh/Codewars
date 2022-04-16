@@ -5,9 +5,9 @@ Examples (Input -> Output)
 // * 7  -> 3 (because odd numbers below 7 are [1, 3, 5])
 // * 15 -> 7 (because odd numbers below 15 are [1, 3, 5, 7, 9, 11, 13])
 Expect large Inputs!
-*/
-Вариант 1
 /*
+Вариант 1
+*/
 function oddCount(n){
    x =[]
      for (let i = 0; i < n; i++){
