@@ -28,3 +28,10 @@ function remainder(n, m) {
    }
    return (n > m) ? n % m : m % n;
 }
+
+// Вапиант 2 
+/*
+function remainder(n, m){
+   return n > m ? n % m : m % n;
+ } 
+ */
