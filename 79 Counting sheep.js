@@ -15,22 +15,13 @@ Hint: Don't forget to check for bad values like null/undefined
 */
 
 function countSheeps(arrayOfSheep) {
-   /* arrayOfSheep = [true,  true,  true,  false,
-     true,  true,  true,  true ,
-     true,  false, true,  false,
-     true,  false, false, true ,
-     true,  true,  true,  true ,
-     false, false, true,  true]; */
-     arrayOfSheep = [1, 2, 3, 4, 5];
-    let sum = 0;
-     for (let i = 0; i < arrayOfSheep.length; i++) {
-       //if (arrayOfSheep[i] == true) {
-        //for (let k = 0; k < arrayOfSheep.length; k++) {
-            
-        sum = sum + arrayOfSheep[i];
-    
-          //} 
-       //}
-     }
-     console.log('sum = ' + sum);
-   }
+   let sum = 0;
+    for (let i = 0; i < arrayOfSheep.length; i++) {
+      if (arrayOfSheep[i]) {         
+       sum = sum + 1;   
+      }
+    }
+    return sum;
+  }
+  
+  
