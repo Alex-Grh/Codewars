@@ -25,3 +25,7 @@ function countSheeps(arrayOfSheep) {
   }
   
   
+//   Вариант 2
+// function countSheeps(arrayOfSheep) {
+//    return arrayOfSheep.filter(Boolean).length
+// }
