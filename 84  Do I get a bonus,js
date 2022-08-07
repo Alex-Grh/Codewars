@@ -9,8 +9,8 @@ Return the total figure the individual will receive as a string prefixed with "�
 */
 function bonusTime(salary, bonus) {
    if(bonus === true) {
-     return `${salary * 10}`;
-   } else if (bonus === false) {
-     return `${salary}`;
-   }
+     return `£${salary * 10}`;
+   } 
+     return `£${salary}`;
+   
    }
