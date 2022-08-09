@@ -8,14 +8,22 @@ Given [34, -345, -1, 100] your solution will return -345
 You can assume, for the purpose of this kata, that the supplied array will not be empty.
 */
 
+// class SmallestIntegerFinder {
+//    findSmallestInt(args) {
+//      let max = args[args.length - 1];
+//      for (let i = 0; i < args.length; i++) {
+//     if (args[i] > max) {
+//        max = args[i];
+//     }
+//    }
+//      return max;
+//  }
+//    }
+
+
 class SmallestIntegerFinder {
    findSmallestInt(args) {
-     let max = args[args.length - 1];
-     for (let i = 0; i < args.length; i++) {
-    if (args[i] > max) {
-       max = args[i];
-    }
+      return Math.min(...args);
    }
-     return max;
- }
-   }
+}
+
