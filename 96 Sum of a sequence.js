@@ -16,3 +16,11 @@ This is the first kata in the series:
 Sum of a sequence (this kata)
 Sum of a Sequence [Hard-Core Version]
 */
+const sequenceSum = (begin, end, step) => {
+   // May the Force be with you
+    let a = 0;
+   for (let i = begin; i <= end; i += step) {
+     a += i;
+   }
+   return a;
+ };
