@@ -8,3 +8,14 @@ n = 3, so I expect a 3x3 square back just like below as a string:
 +++
 +++
 */
+
+function generateShape(integer) {
+   let out = '';
+   for (let i = 0; i < integer; ++i) {
+      for (let j = 0; j < integer; ++j)
+         out += '+';
+      if (i != integer - 1)
+         out += '\n';
+   }
+   return out;
+}
