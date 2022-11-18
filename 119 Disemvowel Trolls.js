@@ -13,11 +13,13 @@ STRINGSREGULAR EXPRESSIONSFUNDAMENTALS
 */
 
 function disemvowel(str) {
-   //   let a1 = ['A, E, I, O, U'];
+   //   let a1 = ['a','e','i','o','u','A', 'E', 'I', 'O', 'U'];
    //   for (let i = 0; i < str.length; i++) {
-   // if (str == a1) {
-     
-   // }
+   // if (str[i] == a1) {
+//       str[i] = str[i + 1];    //str.replace(a1[k], ''); 
+//  } else {
+//      str[i] = str[i];
+//  }
    //   }
      return str = str.replace(/[aAeEiIoOuU]/gi, '');
    }
