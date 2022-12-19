@@ -13,3 +13,11 @@ var Ball = function(ballType) {
   // your code goes here
 };
 */
+
+let Ball = function (ballType) {
+   if (ballType === 'super') {
+      this.ballType = ballType;
+   } else {
+      this.ballType = 'regular';
+   }
+};
